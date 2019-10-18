@@ -1,0 +1,11 @@
+Sitemap: https://web.hackingyseguridad.com/sitemap.xml
+
+User-agent: *
+Disallow:/doc
+Disallow:/css
+Disallow:/js
+Disallow:/img
+Disallow:/aspnet_client
+Disallow:/secure
+
+
