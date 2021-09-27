@@ -6,7 +6,7 @@
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 <!-- TITULO -->
-<title>ACCESO: HACKINGYSEGURIDAD.COM HACKING ETICO Y CIBER SEGURIDAD</title>
+<title>ACCESO: HACKINGYSEGURIDAD.COM HACKING ETICO Y CIBERSEGURIDAD</title>
 <meta name="description" content="hackingyseguridad@hackingyseguridad.com Calle Sepulveda, 18 28011 Madrid, Spain Telef. +34 606534642" />
 <meta name="keywords" content="hackingyseguridad.com, hacking, etico, ciber, seguridad, web, hackingyseguridad, hacking y seguridad, informatica, trucos, ciberseguridad, pc, moviles, smartphone, redes, wifi, ciberataque, android, app, hardware, red, cyber, security, electronica " />
 
@@ -30,7 +30,7 @@
 <meta http-equiv="content-language" content="Spanish" />
 <meta name="abstract" content="Trucos, hacking etico y ciber seguridad, investigacion, aplicaciones, auditoria, redes, cyber secyrity" />
 <meta name="MSSmartTagsPreventParsing" content="true" />
-<meta name="page-topic" content="ELECTRONICS | COMPUTERS | CYBER SECURITY &amp; ETHICAL HACKING | RESEARCH TECHNOLOGY | NETWORKING | INTERESTING TRICKS |" />
+<meta name="page-topic" content="ELECTRONICS | COMPUTERS | CYBERSECURITY &amp; ETHICAL HACKING | RESEARCH TECHNOLOGY | NETWORKING | INTERESTING TRICKS |" />
 <meta http-equiv="Window-target" content="_top" />
 <meta name="ObjectType" content="Document" />
 <meta name="VW96.objecttype" content="Document" />
@@ -40,7 +40,7 @@
 <link href="http://www.hackingyseguridad.com/" rel="alternate" hreflang="es-ES" />
 
 <!-- DUBLIN CORE METADATA -->
-<meta name="DC.Title" content="HACKINGYSEGURIDAD.COM HACKING ETICO Y CIBER SEGURIDAD" />
+<meta name="DC.Title" content="HACKINGYSEGURIDAD.COM HACKING ETICO Y CIBERSEGURIDAD" />
 <meta http-equiv="DC.Description" content="HACKINGYSEGURIDAD.com | ELECTRONICA | INFORMATICA | HACKING ETICO | CIBERSEGURIDAD | CONOCIMIENTO TECNOLOGICO | REDES | TRUCOS INTERESANTES | " />
 <meta name="DC.Language" scheme="RFC1766" content="Spanish" />
 <meta name="dc.source" content="http://www.hackingyseguridad.com" />
@@ -141,30 +141,33 @@ a:link {
 	color: #C3C3C3;
 }
 </style>
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+
 </head>
 
 <body oncontextmenu = "return false">
 <p>&nbsp;</p>
-<p align="center"><img src="login.png" align="absmiddle" /></p>
-<form action='login.php' method='post' name="login" id='login' accept-charset='UTF-8'>
+<p align="center"><img src="login.png" align="absmiddle" /></p><p align="center">&nbsp;</p>
+<form name="login">
 <table width="400" border="1" align="center" cellspacing="0" cellpadding="0" bordercolor="#333333" >
   <tr>
     <td>
 <p>&nbsp;</p>
-<div align="center"><table width="300" border="0" >
+<div align="center"><table width="250" border="0" >
 
   <tr>
     <td width="50%"><div align="left">usuario </div></td>
     <td width="50%"><span class="Estilo1"></span>
-      <input type='text' name='username' id='username'  maxlength="50" /></td>
+      <input name="usuario" type="text" class="Input" value="" size="20" /></td>
   </tr>
   <tr>
     <td width="50%"><div align="left">clave </div></td>
-    <td width="50%"><input type='password' name='password' id='password' maxlength="50" /></td>
+    <td width="50%"><input name="password" type="password" class="Input" value="" size="20" /></td>
   </tr>
   <tr>
     <td width="50%">&nbsp;</td>
-    <td width="50%"><input type='submit' name='Submit' /></td>
+    <td width="50%"><input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> </td>
   </tr>
   </table>
 </div>
@@ -174,9 +177,36 @@ a:link {
 
 </table></form>
 
+<script language="JavaScript"> 
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="admin" && password=="clave1") { 
+window.location="informe.html"; 
+} 
+if (usuario=="admin" && password=="clave2") { 
+window.location="miip.html"; 
+} 
+if (usuario=="" && password=="") { 
+window.location="login.html"; 
+} 
+} 
+        </script> 
+</center> 
+<script language="Javascript"> 
+<!-- Begin 
+document.oncontextmenu = function(){return false} 
+// End --> 
+</script>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">www.hackingyseguridad.com</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 </body>
 </html>
+	
