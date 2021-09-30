@@ -1,12 +1,35 @@
-Sitemap: https://web.hackingyseguridad.com/sitemap.xml
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+# 
+# (c) hackingyseguridad.com 2021
+#
+
+
+Sitemap: http://www.hackingyseguridad.com/sitemap.xml
 
 User-agent: *
 Disallow:/doc
 Disallow:/css
 Disallow:/js
 Disallow:/img
+Disallow:/img
+Disallow:/fonts
 Disallow:/aspnet_client
 Disallow:/secure
+Disallow:login.html
+Disallow:login.php
 Disallow: /wp-login/
 Disallow: /wp-admin/
 Disallow: /cgi-bin
@@ -412,6 +435,5 @@ Disallow: /
 User-Agent: Googlebot
 Allow: /*.css$
 Allow: /*.js$
-
 
 

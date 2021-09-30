@@ -18,7 +18,7 @@
 <meta name="locality" content="Madrid, Spain, Europe" />
 <meta name="publisher" content="hackingyseguridad.com" />
 <meta name="twitter:site" content="@hackyseguridad" />
-<meta name="copyright" content="Copyright hackingyseguridad.com 2018 - Todos los derechos reservados. http://www.hackingyseguridad.com/legal.htm" />
+<meta name="copyright" content="Copyright hackingyseguridad.com 2022 - Todos los derechos reservados. http://www.hackingyseguridad.com/legal.htm" />
 
 <!-- ROBOTS -->
 <meta name="robots" content="index, follow" />
@@ -150,11 +150,11 @@ a:link {
 <p>&nbsp;</p>
 <p align="center"><img src="login.png" align="absmiddle" /></p><p align="center">&nbsp;</p>
 <form name="login">
-<table width="400" border="1" align="center" cellspacing="0" cellpadding="0" bordercolor="#333333" >
+<table width="350" border="1" align="center" cellspacing="0" cellpadding="0" bordercolor="#333333" >
   <tr>
     <td>
-<p>&nbsp;</p>
-<div align="center"><table width="250" border="0" >
+<p align="center">&nbsp;</p>
+<div align="center"><table width="200" border="0" >
 
   <tr>
     <td width="50%"><div align="left">usuario </div></td>
@@ -182,10 +182,10 @@ function Login(){
 var done=0; 
 var usuario=document.login.usuario.value; 
 var password=document.login.password.value; 
-if (usuario=="admin" && password=="clave1") { 
-window.location="informe.html"; 
+if (usuario=="admin" && password=="1234") { 
+window.location="secure/index2.htm"; 
 } 
-if (usuario=="admin" && password=="clave2") { 
+if (usuario=="admin" && password=="12345") { 
 window.location="miip.html"; 
 } 
 if (usuario=="" && password=="") { 
@@ -199,8 +199,6 @@ window.location="login.html";
 document.oncontextmenu = function(){return false} 
 // End --> 
 </script>
-<p align="center">&nbsp;</p>
-<p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
