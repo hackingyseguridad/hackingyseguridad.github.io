@@ -13,7 +13,7 @@
 # For more information about the robots.txt standard, see:
 # http://www.robotstxt.org/robotstxt.html
 # 
-# (c) hackingyseguridad.com 2021
+# (C) hackingyseguridad.com 2022
 #
 
 
@@ -28,7 +28,10 @@ Disallow:/img
 Disallow:/fonts
 Disallow:/aspnet_client
 Disallow:/secure
+Disallow:login.htm
+Disallow:/login.htm
 Disallow:login.html
+Disallow:/login.html
 Disallow:login.php
 Disallow: /wp-login/
 Disallow: /wp-admin/
